@@ -4,7 +4,7 @@ from os import environ
 
 #Put your discord webhook url here.
 
-webhook_url = 'WEBHOOK_URL_KEY'
+webhook_url = environ['WEBHOOK_URL_KEY']
 
 def send_msg():
 
