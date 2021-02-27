@@ -1,9 +1,10 @@
 from discord_webhooks import DiscordWebhooks
 import time
+from os import environ
 
 #Put your discord webhook url here.
 
-webhook_url = process.env.webhookUrlToken
+webhook_url = environ['webhookUrlToken']
 
 def send_msg():
 
